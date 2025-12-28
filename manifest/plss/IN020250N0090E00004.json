@@ -3,7 +3,7 @@
   "id": "https://tvermaut.github.io/iiif/manifest/plss/IN020250N0090E00004.json",
   "type": "Manifest",
   "label": { "nl": ["BLM Land Record Image IN020250N0090E00004"] },
-  "summary": { "nl": ["Statisch IIIF manifest voor statisch gehoste JPEG"] },
+  "summary": { "nl": ["Statisch IIIF manifest voor BLM land record"] },
   "provider": [
     {
       "id": "https://glorecords.blm.gov",
