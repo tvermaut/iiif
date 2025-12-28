@@ -32,7 +32,15 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4650,
-                "width": 4030
+                "width": 4030,
+                "service": [
+                  {
+                    "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+                    "type": "ImageService3",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": "level0"
+                  }
+                ]
               }
             }
           ]
