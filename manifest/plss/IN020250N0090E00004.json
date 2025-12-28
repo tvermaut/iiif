@@ -10,7 +10,7 @@
       "label": { "nl": ["Bureau of Land Management"] }
     }
   ],
-  "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
   "items": [
     {
       "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
@@ -19,6 +19,7 @@
       "width": 4030,
       "items": [
         {
+          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
           "type": "Annotation",
           "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
           "motivation": "painting",
