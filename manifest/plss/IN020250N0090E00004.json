@@ -1,35 +1,9 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://tvermaut.github.io/iiif/manifest/plss/IN020250N0090E00004.json",
-  "type": "Manifest",
-  "label": { "none": ["BLM Land Record IN020250N0090E00004"] },
-  "items": [
-    {
-      "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
-      "type": "Canvas",
-      "height": 4650,
-      "width": 4030,
-      "items": [
-        {
-          "id": "https://tvermaut.github.io/iiif/manifest/plss/page1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://tvermaut.github.io/iiif/manifest/plss/annot1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 4650,
-                "width": 4030
-              },
-              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+  "type": "ImageService3",
+  "protocol": "http://iiif.io/api/image",
+  "profile": "level0",
+  "width": 4030,
+  "height": 4650
 }
