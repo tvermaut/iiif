@@ -2,14 +2,12 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://tvermaut.github.io/iiif/manifest/plss/IN020250N0090E00004.json",
   "type": "Manifest",
-  "label": { "nl": ["BLM Land Record Image IN020250N0090E00004"] },
-  "summary": { "nl": ["Statisch IIIF manifest voor BLM land record"] },
+  "label": { "nl": ["BLM Land Record IN020250N0090E00004"] },
   "provider": [
     {
       "id": "https://glorecords.blm.gov",
       "type": "Agent",
-      "label": { "nl": ["Bureau of Land Management"] },
-      "home": "https://glorecords.blm.gov"
+      "label": { "nl": ["Bureau of Land Management"] }
     }
   ],
   "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -17,17 +15,16 @@
     {
       "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
       "type": "Canvas",
-      "label": { "nl": ["Pagina 1"] },
       "height": 4650,
       "width": 4030,
       "items": [
         {
-          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation-page1",
           "type": "AnnotationPage",
+          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation-page1",
           "items": [
             {
-              "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
               "type": "Annotation",
+              "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
               "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
               "motivation": "painting",
               "body": {
