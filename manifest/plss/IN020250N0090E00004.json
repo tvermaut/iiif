@@ -25,10 +25,11 @@
             {
               "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
               "type": "Annotation",
-              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
               "motivation": "painting",
+              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
               "body": {
-                "@id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+                "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+                "type": "Image",
                 "format": "image/jpeg",
                 "height": 4650,
                 "width": 4030
