@@ -10,7 +10,7 @@
       "label": { "nl": ["Bureau of Land Management"] }
     }
   ],
-  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
   "items": [
     {
       "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
@@ -19,23 +19,16 @@
       "width": 4030,
       "items": [
         {
-          "type": "AnnotationPage",
-          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation-page1",
-          "items": [
-            {
-              "type": "Annotation",
-              "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
-              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
-              "motivation": "painting",
-              "body": {
-                "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 4650,
-                "width": 4030
-              }
-            }
-          ]
+          "type": "Annotation",
+          "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
+          "motivation": "painting",
+          "body": {
+            "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 4650,
+            "width": 4030
+          }
         }
       ]
     }
