@@ -1,12 +1,13 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://tvermaut.github.io/iiif/manifest/IN020250N0090E00004.json",
+  "id": "https://tvermaut.github.io/iiif/manifest/plss/IN020250N0090E00004.json",
   "type": "Manifest",
   "label": { "nl": ["BLM Land Record Image IN020250N0090E00004"] },
   "summary": { "nl": ["Statisch IIIF manifest voor statisch gehoste JPEG"] },
   "provider": [
     {
       "id": "https://glorecords.blm.gov",
+      "type": "Agent",
       "label": { "nl": ["Bureau of Land Management"] },
       "home": "https://glorecords.blm.gov"
     }
@@ -14,25 +15,30 @@
   "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
   "items": [
     {
-      "id": "https://tvermaut.github.io/iiif/canvas1",
+      "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
       "type": "Canvas",
       "label": { "nl": ["Pagina 1"] },
       "height": 4650,
       "width": 4030,
-      "duration": null,
       "items": [
         {
-          "id": "https://tvermaut.github.io/iiif/annotation1",
-          "type": "Annotation",
-          "target": "https://tvermaut.github.io/iiif/canvas1",
-          "motivation": "painting",
-          "body": {
-            "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
-            "type": "Image",
-            "format": "image/jpeg",
-            "height": 4650,
-            "width": 4030
-          }
+          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation-page1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
+              "type": "Annotation",
+              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
+              "motivation": "painting",
+              "body": {
+                "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4650,
+                "width": 4030
+              }
+            }
+          ]
         }
       ]
     }
