@@ -28,27 +28,10 @@
               "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
               "motivation": "painting",
               "body": {
-                "type": "Choice",
-                "choice": [
-                  {
-                    "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
-                    "type": "Image",
-                    "format": "image/jpeg",
-                    "height": 4650,
-                    "width": 4030,
-                    "service": [
-                      {
-                        "@context": "http://iiif.io/api/image/3/context.json",
-                        "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
-                        "type": "ImageService3",
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "level0",
-                        "width": 4030,
-                        "height": 4650
-                      }
-                    ]
-                  }
-                ]
+                "@id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+                "format": "image/jpeg",
+                "height": 4650,
+                "width": 4030
               }
             }
           ]
