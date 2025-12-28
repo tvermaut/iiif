@@ -1,9 +1,10 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
+  "id": "https://tvermaut.github.io/iiif/plss/IN020250N0090E00004/info.json",
   "type": "ImageService3",
   "protocol": "http://iiif.io/api/image",
   "profile": "level0",
   "width": 4030,
-  "height": 4650
+  "height": 4650,
+  "preferredFormats": ["jpg"]
 }
