@@ -2,15 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://tvermaut.github.io/iiif/manifest/plss/IN020250N0090E00004.json",
   "type": "Manifest",
-  "label": { "nl": ["BLM Land Record IN020250N0090E00004"] },
-  "provider": [
-    {
-      "id": "https://glorecords.blm.gov",
-      "type": "Agent",
-      "label": { "nl": ["Bureau of Land Management"] }
-    }
-  ],
-  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "label": { "none": ["BLM Land Record IN020250N0090E00004"] },
   "items": [
     {
       "id": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
@@ -19,21 +11,21 @@
       "width": 4030,
       "items": [
         {
-          "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation-page1",
+          "id": "https://tvermaut.github.io/iiif/manifest/plss/page1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tvermaut.github.io/iiif/manifest/plss/annotation1",
+              "id": "https://tvermaut.github.io/iiif/manifest/plss/annot1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1",
               "body": {
                 "id": "https://glorecords.blm.gov/ConvertedImages/IN020250N0090E00004.JPG",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4650,
                 "width": 4030
-              }
+              },
+              "target": "https://tvermaut.github.io/iiif/manifest/plss/canvas1"
             }
           ]
         }
